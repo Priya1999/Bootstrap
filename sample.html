@@ -75,6 +75,35 @@
             </div>
     </form>
     </div>
+    <ul class = "nav nav-pills">
+        <li class = "nav-item">
+            <a class = "nav-link active" role = "tab" data-toggle = "tab" data-target = "#peter" href = "#peter">Chief Exceutive officer</a>
+        </li>
+        <li class = "nav-item">
+            <a class = "nav-link " role = "tab" data-toggle = "tab" data-target = "#danny" href = "#danny">chief Taste officer</a>
+        </li>
+    </ul>
+    <div class = "tab-content">
+        <div role = "tab-panel" class = "tab-pane fade show active" id = "peter">
+            <h3>The remaining content is also similarly enclosed inside appropriate divs with the correct ids and the classes specified as above. Only the first tab pane will have the show and active classes specified to indicate that the content should be visible on the web page by default.</h3>
+        </div>
+        <div role = "tab-panel" class = "tab-pane fade " id = "danny">
+            <h3>The remaining content is also similarly enclosed inside appropriate divs with the correct ids and the classes specified as above. Only the first tab pane will have the show and active classes specified to indicate that the content should be visible on the web page by default.</h3>
+        </div>
+    </div>
+    <div class = "accordion">
+    <div class = "card">
+        <div class = "card-header">
+            <h2 class = "mb-0"><a class = "collapsed" data-toggle="collapse" data-target="#peter">John Peter</a>
+            </h2>
+        </div>
+        <div class = "collapse" id = "peter" data-parent=".accordion">
+            <div class = "card-body">
+                <p>In this exercise we explore the use of the collapse Javascript plugin together with card component to create an accordion to show/hide content in a web page. At the end of this exercise, you will be able to:</p>
+                </div>
+        </div>
+    </div>
+    </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
